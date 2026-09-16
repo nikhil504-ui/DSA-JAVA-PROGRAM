@@ -1,6 +1,6 @@
 class Solution {
     public int countDigits(int num) {
-        int count = 0;
+       int count = 0;
         int temp = num;
         
         while (temp > 0) {
@@ -11,7 +11,7 @@ class Solution {
             temp /= 10;
         }
         
-        return count;
+        return count;  
     }
 }
 
